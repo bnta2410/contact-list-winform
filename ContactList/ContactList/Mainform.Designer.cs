@@ -34,29 +34,33 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(232, 228);
+            this.button1.Location = new System.Drawing.Point(464, 442);
+            this.button1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(202, 23);
+            this.button1.Size = new System.Drawing.Size(404, 45);
             this.button1.TabIndex = 0;
             this.button1.Text = "Thêm liên hệ";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(238, 122);
+            this.label1.Location = new System.Drawing.Point(542, 277);
+            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(113, 16);
+            this.label1.Size = new System.Drawing.Size(241, 32);
             this.label1.TabIndex = 1;
             this.label1.Text = "Danh sách liên hệ";
             // 
             // Mainform
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1600, 872);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "Mainform";
             this.Text = "Form1";
             this.ResumeLayout(false);
